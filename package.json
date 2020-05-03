@@ -1,0 +1,20 @@
+{
+  "name": "typescript-mocha-chai-es6module",
+  "version": "0.0.1",
+  "description": "Mocha & Chai with Node.js and TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require esm --require ts-node/register src/**/*.test.ts"
+  },
+  "author": "AaronNGray",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chai": "^4.2.11",
+    "@types/mocha": "^7.0.2",
+    "chai": "^4.2.0",
+    "esm": "^3.2.25",
+    "mocha": "^7.1.2",
+    "ts-node": "^8.10.1",
+    "typescript": "^3.8.3"
+  }
+}
