@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Mocha & Chai with Node.js and TypeScript",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "mocha --require esm --require ts-node/register src/**/*.test.ts"
   },
