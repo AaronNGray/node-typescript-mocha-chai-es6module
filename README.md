@@ -7,5 +7,8 @@ npm install --save-dev esm
 
 package.json
 ```
+  "type": "module",
+  "scripts": {
     "test": "mocha --require esm --require ts-node/register src/**/*.test.ts"
+  },
 ```
