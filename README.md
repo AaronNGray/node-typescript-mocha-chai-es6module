@@ -2,6 +2,12 @@
 Node.js & TypeScript + Mosha & Chai with ES6 Modules
 
 ```
+npm install
+npm test
+```
+
+## Modifications made for ES6 Modules
+```
 npm install --save-dev esm
 ```
 
